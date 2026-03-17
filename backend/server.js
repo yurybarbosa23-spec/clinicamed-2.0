@@ -11,9 +11,6 @@ const adminRoutes = require('./src/routes/admin');
 
 const app = express();
 
-Ótimo! Agora no VS Code abra backend/server.js e substitua a linha do cors por:
-
-js
 app.use(cors({
   origin: [
     'http://localhost:5173',
