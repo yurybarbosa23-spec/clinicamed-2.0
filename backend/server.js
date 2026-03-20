@@ -38,6 +38,3 @@ sequelize.sync({ alter: false }).then(() => {
   console.error('❌ Erro ao conectar banco:', err);
   process.exit(1);
 });
-
-const cors = require('cors');
-app.use(cors()); // Isso permite que qualquer site acesse seu backend
