@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://clinicamed-mocha.vercel.app'
+    'https://yurybarbosa23-spec-clinicamed-20.vercel.app'
   ],
   credentials: true
 }));
